@@ -12,8 +12,8 @@ require_once("config.php");
 //echo $root;
 
 //Carrega uma lista de usuários
-$lista = Usuario::getList();
-echo json_encode($lista);
+//$lista = Usuario::getList();
+//echo json_encode($lista);
 
 //Carrega uma lista pesquisando pelo login
 //$busca = Usuario::search("ro");
@@ -35,4 +35,12 @@ echo json_encode($lista);
 //$usuario->loadbyId(8);
 //$usuario->update("professor", "65422");
 //echo $usuario;
+
+//Deletando um usuário pelo id
+//$usuario = new Usuario();
+//$usuario->loadbyId(8);
+//$usuario->delete();
+//echo $usuario;
+
+
 ?>
